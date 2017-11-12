@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learn Vue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <div class="op-hide"></div>
+    <div class="sidebar" id="sidebar">
+        <div class="top-canvas">
+            <i class="mdl2 hsb">&#xe76b</i>
+            <i class="tim">BLOG</i>
+        </div>
+        <div class="distance">
+            <ul>
+                <li>
+                    <a href="#" id="dashboard" class="active"><i class="mdl2">&#xEca5 </i>&nbsp; &nbsp;  Dashboard</a>
+                </li>
+                <li>
+                    <a href="#" id="article"><i class="mdl2">&#xe8c8 </i>&nbsp; &nbsp;  Article</a>
+                </li>
+                <li>
+                    <a href="#" id="gallery"><i class="mdl2">&#xeb9f </i>&nbsp; &nbsp;  Gallery</a>
+                </li>
+                <li>
+                    <a href="#" id="tag"><i class="mdl2">&#xe8ec</i>&nbsp; &nbsp;  Tag</a>
+                </li>
+                <li>
+                    <a href="#" id="user"><i class="mdl2">&#xE716 </i>&nbsp; &nbsp;  User Management</a>
+                </li>
+                <li>
+                    <a href="#" id="theme"><i class="mdl2">&#xE771 </i>&nbsp; &nbsp;  Theme</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main hide" id="m-dashboard">
+        <div class="header">
+            <i class="mdl2 msb">&#xe700</i>
+        </div>
+        <div class="distance">
+            <div class="tom">Dashboard</div>
+            <div class="all-box">
+                <div class="box" id="article-box">
+                    <i class="mdl2">&#xe8c8</i>
+                    <br> Artikel
+                    <br>
+                    <i class="desc">20 artikel</i>
+                </div>
+                <div class="box">
+                    <i class="mdl2">&#xe8ec</i>
+                    <br> Kategori
+                    <br>
+                    <i class="desc">6 kategori</i>
+                </div>
+                <div class="box">
+                    <i class="mdl2">&#xeb9f</i>
+                    <br> Galeri
+                    <br>
+                    <i class="desc">3 gambar</i>
+                </div>
+                <div class="box">
+                    <i class="mdl2">&#xE716 </i>
+                    <br> Users
+                    <br>
+                    <i class="desc">4 user</i>
+                </div>
+                <div class="box">
+                    <i class="mdl2">&#xeb9f</i>
+                    <br> Gallery
+                    <br>
+                    <i class="desc">3 photos</i>
+                </div>
+                <div class="box">
+                    <i class="mdl2">&#xE716 </i>
+                    <br> Users
+                    <br>
+                    <i class="desc">20 article</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main hide" id="m-article">
+        <div class="header">
+            <i class="mdl2 msb">&#xe700</i>
+        </div>
+        <div class="distance">
+            <div class="tom">Artikel</div>
+            <div class="article-canvas">
+                <a href="#" class="btn-primary add-article-btn">Tambah Artikel</a>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">NO</th>
+                            <th scope="col">Judul</th>
+                            <th scope="col">Tanggal Publikasi</th>
+                            <th scope="col">kategori</th>
+                            <th scope="col">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="No :">1</td>
+                            <td data-label="Judul :">Halal Bihalal dan Penobatan Para Bintang Semester Genap Tah</td>
+                            <td data-label="Tanggal Publikasi :">04/01/2016</td>
+                            <td data-label="Kategori :">
+                                <i class="mdl2 windows">&#xe7c8</i> Windows
+                            </td>
+                            <td data-label="Aksi :">
+                                <a href="#" class="edit"><i class="mdl2">&#xE70F</i></a>
+                                <a href="#" class="del"><i class="mdl2">&#xE74D</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="No :">2</td>
+                            <td data-label="Judul :">Halal Bihalal dan Penobatan Para Bintang Semester Genap Tah</td>
+                            <td data-label="Tanggal Publikasi :">04/01/2016</td>
+                            <td data-label="Kategori :">
+                                <i class="mdl2 game">&#xe7c8</i> Game
+                            </td>
+                            <td data-label="Aksi :">
+                                <a href="#" class="edit"><i class="mdl2">&#xE70F</i></a>
+                                <a href="#" class="del"><i class="mdl2">&#xE74D</i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="main hide" id="m-gallery">
+        <div class="header">
+            <i class="mdl2 msb">&#xe700</i>
+        </div>
+        <div class="distance">
+            <div class="tom">Gallery</div>
+            dsfsf
+        </div>
+    </div>
+    <div class="main hide" id="m-tag">
+        <div class="header">
+            <i class="mdl2 msb">&#xe700</i>
+        </div>
+        <div class="distance">
+            <div class="tom">Tag</div>
+            dsfsf
+        </div>
+    </div>
+    <div class="main hide" id="m-user">
+        <div class="header">
+            <i class="mdl2 msb">&#xe700</i>
+        </div>
+        <div class="distance">
+            <div class="tom">Users Management</div>
+            dsfsf
+        </div>
+    </div>
+    <div class="main" id="m-theme">
+        <div class="header">
+            <i class="mdl2 msb">&#xe700</i>
+        </div>
+        <div class="distance">
+            <div class="tom">
+                Chosee Your Theme
+            </div>
+            <div class="theme-canvas">
+                <div class="theme">
+                    <div class="space">
+                        <div class="theme-box" style="background-image: url('img/light.png')">
+                        </div>
+                        <div class="desc">
+                            Light Mode
+                            <i class="mdl2">&#xE73E</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="theme">
+                    <div class="space">
+                        <div class="theme-box" style="background-image: url('img/light.png')">
+                        </div>
+                        <div class="desc">Dark Mode</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./myfunction.js"></script>
+</body>
+</html>
